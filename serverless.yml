@@ -2,11 +2,15 @@ service: cart-service
 
 plugins:
   - serverless-offline
+  - serverless-dotenv-plugin
+
+useDotenv: true
 
 provider:
   name: aws
   region: us-east-1
   runtime: nodejs18.x
+  timeout: 15
 
 functions:
   main:

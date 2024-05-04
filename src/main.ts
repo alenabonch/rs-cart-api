@@ -1,6 +1,7 @@
+import serverlessExpress from '@codegenie/serverless-express';
+import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
 import { Callback, Context, Handler } from 'aws-lambda';
-import serverlessExpress from '@codegenie/serverless-express';
 
 import helmet from 'helmet';
 
