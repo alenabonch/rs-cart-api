@@ -62,11 +62,8 @@ export class CartController {
     const cart = await this.cartService.findByUserId(userId);
 
     if (!(cart && cart.items.length)) {
-      const statusCode = HttpStatus.BAD_REQUEST;
-      req.statusCode = statusCode
-
       return {
-        statusCode,
+        statusCode: HttpStatus.BAD_REQUEST,
         message: 'Cart is empty',
       }
     }

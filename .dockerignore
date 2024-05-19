@@ -1,0 +1,13 @@
+**/.dockerignore
+**/.elasticbeanstalk
+**/.env
+**/.git
+**/.gitignore
+**/sql-scripts
+**/.idea
+**/Dockerfile*
+**/node_modules
+**/compose.yaml
+**/build
+**/dist
+README.md
