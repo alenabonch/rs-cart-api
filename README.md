@@ -73,3 +73,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
+
+## ✔ Service deployed to stack cart-service-dev
+
+endpoints:
+ANY - https://8dwqo8g7z9.execute-api.us-east-1.amazonaws.com/dev/
+ANY - https://8dwqo8g7z9.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+
+## Beanstalk URL
+alenabonch-cart-api-dev.us-east-1.elasticbeanstalk.com
